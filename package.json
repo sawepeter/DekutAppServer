@@ -1,12 +1,12 @@
 {
-  "name": "remindme",
+  "name": "DekutAppServer",
   "version": "0.1.0",
-  "description": "A Twilio Reminder App",
+  "description": "Server for DekutApp",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Arvind Ravulavaru",
+  "author": "Denzel Wamburu",
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^0.8.0",

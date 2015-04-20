@@ -5,7 +5,7 @@ var call = {
     return client.makeCall({
       to: reminder.user.phone,
       from: '+16165225251',
-      url: 'http://75dd23be.ngrok.com/call/twiml/' + reminder.user._id + '/' + reminder._id
+      url: 'http://e9d08b8b.ngrok.io/call/twiml/' + reminder.user._id + '/' + reminder._id
     }, function(error, response) {
       console.log(error || response);
     });
